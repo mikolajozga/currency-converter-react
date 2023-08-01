@@ -11,8 +11,9 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   min-height: 100vh;
-  background-image: url(./images/cash-background.jpg);
+  background-image: url(./images/background1.jpg);
   background-size: cover;
   background-position: center;
 }

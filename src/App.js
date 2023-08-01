@@ -6,10 +6,12 @@ import Header from "./Header";
 
 function App() {
   return (
+    <>
+    <Header title="Kalkulator walut" />
     <Container>
-      <Header title="Przelicz PLN na daną walutę!" />
       <Form />
     </Container>
+    </>
   );
 };
 
