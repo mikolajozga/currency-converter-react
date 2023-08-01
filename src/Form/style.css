@@ -43,6 +43,7 @@
 }
 
 .form__field {
+    outline: none;
     border: none;
     border-bottom: 2px solid hsl(285, 45%, 60%);
     padding: 10px; 
