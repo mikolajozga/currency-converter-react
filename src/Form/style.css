@@ -8,11 +8,6 @@
     border-radius: 15px;
 }
 
-@media (max-width: 767px) {
-    .form__fieldset {
-        min-width: 478px;
-    }
-}
 
 .form__container {
     display: grid;
