@@ -21,7 +21,7 @@
     .form__container {
         grid-template-columns: 1fr;
         grid-gap: 15px;
-        padding: 10px 0px;
+        padding: 10px;
     }
 }
 
