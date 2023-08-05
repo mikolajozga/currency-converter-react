@@ -1,5 +1,7 @@
 .container {
-    max-width: 600px;
+    max-width: 530px;
     margin: 0 auto;
     min-height: 60vh;
+    width: 100%;
 }
+
