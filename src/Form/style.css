@@ -105,17 +105,3 @@
     border: 1px solid hsl(285, 45%, 50%);
     color: white;
 }
-
-.result {
-    text-align: center;
-    padding: 20px;
-    font-size: 25px;
-    color: hsl(285, 45%, 60%);
-    margin: 30px auto;
-}
-
-@media (max-width: 767px) {
-    .result {
-     margin: 15px;
-    }
- }
