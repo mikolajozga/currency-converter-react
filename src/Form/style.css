@@ -9,6 +9,9 @@
     margin: 20px 20px;
 }
 
+.form__block {
+    margin: 16px 0px;
+}
 
 .form__container {
     display: grid;
