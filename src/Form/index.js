@@ -6,7 +6,7 @@ import { Result } from "./Result";
 const Form = ({ calculateResult, result }) => {
 
     const [amount, setAmount] = useState("");
-    const [currency, setCurrency] = useState(currencies[3].name);
+    const [currency, setCurrency] = useState(currencies[0].name);
 
     const onFormSubmit = (event) => {
         event.preventDefault();
@@ -16,7 +16,7 @@ const Form = ({ calculateResult, result }) => {
     return (
         <form className="form" onSubmit={onFormSubmit}>
             <fieldset className="form__fieldset">
-                <p>
+                <div className="form__block">
                     <label>
                         <div className="form__container">
                             <span className="form__labelText">
@@ -25,12 +25,12 @@ const Form = ({ calculateResult, result }) => {
                             <select
                                 className="form__select"
                                 value={currency}
-                                onChange={({ target }) => setCurrency(target)}
+                                onChange={({ target }) => setCurrency(target.value)}
                             >
                                 {currencies.map((currency => (
-                                    <option 
-                                    key={currency.name}
-                                    value={currency.name}
+                                    <option
+                                        key={currency.name}
+                                        value={currency.name}
                                     >
                                         {currency.name}
                                     </option>
@@ -38,8 +38,8 @@ const Form = ({ calculateResult, result }) => {
                             </select>
                         </div>
                     </label>
-                </p>
-                <p>
+                </div>
+                <div className="form__block">
                     <label>
                         <div className="form__container">
                             <span className="form__labelText">
@@ -56,9 +56,9 @@ const Form = ({ calculateResult, result }) => {
                             />
                         </div>
                     </label>
-                </p>
+                </div>
 
-                <Result result={result}/>
+                <Result result={result} />
 
                 <button className="form__button">Przelicz!</button>
             </fieldset>
