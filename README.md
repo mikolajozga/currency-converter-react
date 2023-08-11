@@ -1,4 +1,27 @@
-# Getting Started with Create React App
+# Currency Converter
+
+## Description
+
+The **Currency Converter** is a simple appliacation that will help you with convert PLN to the five most popular currencies.
+
+### The three currencies i chose are:
+- EUR
+- USD
+- GBP
+- CHF
+- RUB
+
+### My project includes elements and features like:
+- JavaScript code
+- Objects
+- Array
+- BEM
+- ES6
+- HTML
+- CSS
+- React
+- Grid
+- Flex
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
