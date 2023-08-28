@@ -12,6 +12,10 @@ function App() {
   const calculateResult = (amount, currency) => {
     const rate = currencies.find(({ name }) => name === currency).rate;
 
+    if (amount <= 0) {
+      return false;
+    }
+    
     setResult({
       sourceAmount: +amount,
       targetAmount: amount / rate,
