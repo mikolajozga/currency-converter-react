@@ -3,6 +3,7 @@ import Form from "./Form";
 import Container from "./Container";
 import Header from "./Header";
 import { currencies } from "./Form/currencies";
+import { Clock } from "./Clock";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
     <>
       <Header title="Kalkulator walut" />
       <Container>
+        <Clock />
         <Form
           result={result}
           calculateResult={calculateResult}
